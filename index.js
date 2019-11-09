@@ -17,7 +17,7 @@ const chainInlineAssets = (config) => {
       .loader("url-loader")
       .tap(() => {
         return {
-          limit: true
+          limit: 0
         };
       });
   });

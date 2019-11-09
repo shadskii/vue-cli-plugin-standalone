@@ -19,5 +19,15 @@ Add the plugin to your vue app.
 vue add standalone
 ```
 
+## Usage
+```bash
+npm run build:standalone # Creates a single file build of your app
+```
+
+```bash
+npm run serve:standalone # Serves your app with assets inlined
+```
+
+
 ## License
 MIT

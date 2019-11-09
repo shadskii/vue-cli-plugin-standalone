@@ -1,12 +1,18 @@
 {
   "name": "vue-cli-plugin-standalone",
   "version": "0.0.1",
-  "description": "Standalone plugin for vue-cli",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Standalone build plugin for vue-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadskii/vue-cli-plugin-standalone.git"
   },
-  "author": "Jake Hassel",
+  "keywords": [
+    "vue",
+    "vue-cli"
+  ],
+  "homepage": "https://github.com/shadskii/vue-cli-plugin-standalone#readme",
+  "main": "index.js",
+  "author": "Jake Hassel <jake.k.hassel@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "html-webpack-inline-source-plugin": "^0.0.10"
